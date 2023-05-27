@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 1220px;
+    background-color: #ffffff;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.home .nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid orangered;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.nav .brand-name h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: 	#FF5A36;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+
+
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    margin-right: 13px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #EC5800;
+    padding: 5px;
+    background-color:#C4C3D0;
+    border: 1px solid #003153;
+    border-radius: 10px;
+}
+
+.about-us {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about-us .about-us-info {
+    width: 50%;
+    height: auto;
+}
+
+.about-us .about-us-info h2 {
+    font-size: 30px;
+    color: #EC5800	;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-left: 20px;
+    margin-bottom: 9px;
+}
+
+.about-us .about-us-info p {
+    font-size: 19px;
+    color: #003153;
+    padding-left: 18px;
+    margin-bottom: 13px;
+}
+
+.about-us .about-us-info button {
+    margin-left: 19px;
+    width: 23%;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.about-us .about-us-info .btn-1 {
+    background-color: #EC5800;
+    border: 1px solid #000;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.about-us .about-us-info .btn-2 {
+    border: 0;
+    font-size: 16px;
+    background-color: 	#708090;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.about-us .about-us-info img {
+    width: 95%;
+    border-radius: 10px;
+}
+
+.images-keyBoards  {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.images-keyBoards .name-KeyBoards {
+    width: 33.3%;
+    height: auto;
+}
+
+.images-keyBoards .name-KeyBoards img {
+    width: 100%;
+    height: auto;
+    padding-left: 13px;
+    margin-left: 3px;
+    border-radius: 15px;
+}
+
+.images-keyBoards .name-KeyBoards h3 {
+    font-size: 24px;
+    color: #EC5800;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-left: 16px;
+    margin-bottom: 10px;
+}
+
+.images-keyBoards .name-KeyBoards p {
+    font-size: 19px;
+    color: #708090;
+    padding-left: 15px;
+
+}
+
+
+.OurProductFeatures {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.OurProductFeatures .Info-About-OurProductFeatures {
+    width: 25%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.OurProductFeatures .Info-About-OurProductFeatures i {
+    color: white;
+    background-color: #EC5800;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 12px;
+    margin-left: 9px;
+    margin-bottom: 10px
+}
+
+.OurProductFeatures .Info-About-OurProductFeatures h4 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #EC5800;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+
+.OurProductFeatures .Info-About-OurProductFeatures p {
+    font-size: 16px;
+    color: 	#3B444B;
+    padding-left: 8px;
+}
+
+.contact-us {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.contact-us p {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #3B444B;
+    text-align: center;
+}
+
+.contact-us a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #EC5800;
+
+}
+
+
+
+
+
+@media (max-width: 750px) {
+
+    body {
+        height: 2570px;
+    }
+
+    .about-us {
+        flex-wrap: wrap;
+    }
+
+    .about-us .about-us-info {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .about-us .about-us-info h2 {
+        padding-top: 20px;
+    }
+
+    .about-us .about-us-info button {
+        width: 40%;
+        padding: 8px;
+    }
+
+    .about-us .about-us-info img {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 8px;
+    }
+
+    .images-keyBoards {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .images-keyBoards .name-KeyBoards {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+        padding-right: 13px;
+    }
+
+    .OurProductFeatures {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .OurProductFeatures .Info-About-OurProductFeatures {
+        width: 100%;
+        padding: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+        border: 1px solid #000;
+    }
+    
+
+}
+
+@media (min-width: 751px) and (max-width: 950px) {
+
+    body {
+        height: 1300px;
+    }
+
+
+    .about-us .about-us-info h2 {
+        font-size: 30px;
+        color: #EC5800	;
+        font-weight: bold;
+        padding-top: 0px;
+        padding-left: 20px;
+        margin-bottom: 9px;
+    }
+
+    .about-us .about-us-info button {
+        margin-left: 19px;
+        width: 43%;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    
+    .about-us .about-us-info img {
+        width: 100%;
+        padding-right: 3px;
+    }
+
+    .images-keyBoards .name-KeyBoards img {
+        padding-top: 43px;
+    }
+
+    .OurProductFeatures {
+        flex-wrap: wrap;
+    }
+
+    .OurProductFeatures .Info-About-OurProductFeatures {
+        width: 50%;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+
+}
